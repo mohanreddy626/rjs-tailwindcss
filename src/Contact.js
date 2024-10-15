@@ -14,9 +14,8 @@ export default function Contact() {
       <Example />
       <Container>
         <Para />
-      </Container>
 
-      <Row>
+        <Row>
         <Col lg={4} md={12}>
           <Card>
             <Card.Body className="bg-body-tertiary">
@@ -66,6 +65,9 @@ export default function Contact() {
           </Card>
         </Col>
       </Row>
+      </Container>
+
+      
     </div>
   );
 }

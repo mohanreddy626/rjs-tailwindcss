@@ -53,7 +53,7 @@ export default function Example() {
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">
                     {navigation.map((item) => (
-                      <Link
+                      <Link style={{textDecoration: 'none'}}
                         key={item.name}
                         to={item.to}
                         aria-current={item.current ? "page" : undefined}
